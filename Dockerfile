@@ -1,7 +1,7 @@
 FROM fabiocicerchia/nginx-lua:1.27.5-alpine3.21.3
 LABEL maintainer="LibreTV Team"
 LABEL description="LibreTV - 免费在线视频搜索与观看平台"
-
+LABEL description="天筱TV - 免费在线视频搜索与观看平台"
 # 复制应用文件
 COPY . /usr/share/nginx/html
 
